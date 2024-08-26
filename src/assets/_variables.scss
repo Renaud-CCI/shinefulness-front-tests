@@ -1,0 +1,23 @@
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// media queries
+$tablet: 768px;
+$desktop: 1024px;
+
+//Colors
+$yellow: #fdda3e;
+$dark-yellow: darken($yellow, 10%);
+$light-yellow: #fff76f;
+
+$background: #e3e6e2;
+$dark-background: darken($background, 10%);
+$darker-background: darken($background, 50%); //#616c5d
+$darkest-background: darken($background, 75%);
+$light-background: lighten($background, 10%);
+
+$success: #4d7c0f; //tailwind lime-700
+$dark-success: darken($success, 10%);
+$error: #b91c1c; //tailwind red-700
+

@@ -1,0 +1,14 @@
+{
+    "title": "contact us by email by filling out this form",
+    "name": "name and surname",
+    "name_placeholder": "your name and surname",
+    "email": "email address",
+    "email_placeholder": "your email address",
+    "subject": "subject",
+    "subject_placeholder": "subject of your message",
+    "message": "message",
+    "message_placeholder": "enter your message here",
+    "mail_sent": "your message has been sent successfully",
+    "mail_error": "an error occurred while sending your message, please check your information and try again",
+    "mail_input_error": "invalid email address"
+}

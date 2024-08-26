@@ -1,0 +1,15 @@
+{
+    "title": "voilà ton soleil intérieur",
+    "date_title": "du",
+    "low_score_title": "orageux",
+    "medium_score_title": "nuageux",
+    "high_score_title": "ensoleillé",
+    "no_mail_sent": "Il y a eu une erreur lors de l'envoi du scan par email à l'adresse",
+    "no_mail_sent_message": "mais il est toujours possible de le télécharger sur cette page",
+    "mail_sent": "Un mail avec votre scan viens d'être envoyé à l'adresse",
+    "mail_sent_message": "vous trouverez ci-après votre soleil intérieur généré",
+    "mail_error": "Une erreur innatendue est survenue lors du traitement de votre scan",
+    "mail_error_message": "veuillez réessayer ultérieurement",
+    "download_pdf": "Télécharger le PDF",
+    "share": "Partager votre soleil intérieur"
+}

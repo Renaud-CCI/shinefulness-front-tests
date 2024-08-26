@@ -1,0 +1,15 @@
+{
+    "title": "here is your inner sun",
+    "date_title": "on",
+    "low_score_title": "stormy",
+    "medium_score_title": "cloudy",
+    "high_score_title": "sunny",
+    "no_mail_sent": "There was an error sending the scan by email to the address",
+    "no_mail_sent_message": "but it is still possible to download it on this page",
+    "mail_sent": "An email with your scan has just been sent to the address",
+    "mail_sent_message": "below you will find your generated inner sun",
+    "mail_error": "An unexpected error occurred while processing your scan",
+    "mail_error_message": "please try again later",
+    "download_pdf": "Download PDF",
+    "share": "Share your inner sun"
+}

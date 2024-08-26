@@ -1,47 +1,43 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+    <NavbarContainer />
+    <section id="body-container">
+      <h1 class="text-red-500">Hello World</h1>
+      <p class="text-blue-500">This is a test</p>
+      <p class="text-green-500">This is a test</p>
+    </section>
+    <FooterContainer />
+    
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
+<script>
+import NavbarContainer from '@/components/Navbar/NavbarContainer.vue';
+import FooterContainer from '@/components/Footer/FooterContainer.vue';
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+export default {
+  name: 'App',
+  components: {
+      NavbarContainer,
+      FooterContainer,
+  },
+  setup() {
+      return {
+      };
   }
+};
+</script>
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
+<style scoped lang="scss">
+@import '@/assets/_variables.scss';
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+#body-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  background-color: $background;
+  min-height: 90vh;
+  padding-top: 10vh;
 }
 </style>

@@ -1,0 +1,7 @@
+{
+    "name_label": "Bonjour, nous aimerions connaître votre nom",
+    "name_required": "Veuillez saisir votre nom",
+    "not_complete_scan": "Veuillez répondre à toutes les questions avant de poursuivre",
+    "invalid_email": "Adresse email invalide",
+    "waiting" : "Traitement en cours..."
+}

@@ -1,0 +1,14 @@
+{
+    "title": "contactez-nous par mail en remplissant ce formulaire",
+    "name": "nom et prénom",
+    "name_placeholder": "votre nom et prénom",
+    "email": "adresse mail",
+    "email_placeholder": "votre adresse mail",
+    "subject": "sujet",
+    "subject_placeholder": "sujet de votre message",
+    "message": "message",
+    "message_placeholder": "saisir ici votre message",
+    "mail_sent": "votre message a bien été envoyé",
+    "mail_error": "une erreur est survenue lors de l'envoi de votre message, veuillez verifier vos informations et réessayer",
+    "mail_input_error": "adresse mail invalide"
+}

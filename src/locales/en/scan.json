@@ -1,0 +1,7 @@
+{
+    "name_label": "Hello, we would like to know your name",
+    "name_required": "Please enter your name",
+    "not_complete_scan": "Please answer all questions before proceeding",
+    "invalid_email": "Invalid email address",
+    "waiting" : "Processing in progress..."
+}
