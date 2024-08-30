@@ -1,9 +1,7 @@
-<template>
+<template >
     <NavbarContainer />
     <section id="body-container">
-      <h1 class="text-red-500">Hello World</h1>
-      <p class="text-blue-500">This is a test</p>
-      <p class="text-green-500">This is a test</p>
+      <FeedBackContainer />
     </section>
     <FooterContainer />
     
@@ -12,11 +10,13 @@
 <script>
 import NavbarContainer from '@/components/Navbar/NavbarContainer.vue';
 import FooterContainer from '@/components/Footer/FooterContainer.vue';
+import FeedBackContainer from './components/FeedBackContainer.vue';
 
 export default {
   name: 'App',
   components: {
       NavbarContainer,
+      FeedBackContainer,
       FooterContainer,
   },
   setup() {
@@ -37,7 +37,8 @@ export default {
   font-family: 'Poppins', sans-serif;
   font-size: 1.25rem;
   background-color: $background;
+  width: 100vw;
   min-height: 90vh;
-  padding-top: 10vh;
+  padding: 10vh 30px 0;
 }
 </style>

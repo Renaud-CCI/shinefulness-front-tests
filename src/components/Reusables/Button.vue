@@ -37,7 +37,7 @@ export default defineComponent({
 </script>
   
 <style scoped lang='scss'>
-@import '@/../sass/_variables.scss';
+@import '@/assets/_variables.scss';
 
   button{
     width: 100%;
