@@ -3,7 +3,7 @@
         <div class="flex flex-col justify-start col-span-2">
             <p class="contact-link flex">
                 <font-awesome-icon class="icon" icon="at" />
-                <router-link class="router-link" to="/contact">{{  reusables.capitalizeFirstLetter(t('footer.contact_us')) }}</router-link>
+                <router-link class="router-link" to="/">{{  reusables.capitalizeFirstLetter(t('footer.contact_us')) }}</router-link>
             </p>
             <p>© {{ year }} - Shinefulness V.bêta</p>
         </div>
